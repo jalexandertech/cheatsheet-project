@@ -1,6 +1,6 @@
-# Frontend Mentor - NFT preview card component solution
+# Codecademy Off-Platform Project: Build your own cheatsheet
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the  [https://cheatsheet-project.netlify.app/](https://cheatsheet-project.netlify.app/). 
 
 ## Table of contents
 
@@ -25,7 +25,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
-- See hover states for interactive elements
+- Flip cards to view the other side of the card
 
 ### Screenshot
 
@@ -51,11 +51,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Desktop-first workflow
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
