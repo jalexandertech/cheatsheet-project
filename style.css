@@ -184,7 +184,7 @@ body {
 .card-example {
     display: block;
     margin: 0 auto;
-    width: 220px;
+    width: 200px;
 }
 
 .card-example-1 {
@@ -211,6 +211,33 @@ body {
 
 /* Mobile Devices */
 
-/* @854px - nowrap on flex; two each row */
-/* @931px - reduce header font size to 30px and description to 18px  */
-/* Smaller devices will have one each row */
+@media only screen and (max-width: 1281px) {
+    .html-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .header-description {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 931px) {
+
+    .header {
+        font-size: 30px;
+    }
+
+    .html-cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-content: center;
+    }
+
+    .container {
+        width: 50%;
+    }
+}
